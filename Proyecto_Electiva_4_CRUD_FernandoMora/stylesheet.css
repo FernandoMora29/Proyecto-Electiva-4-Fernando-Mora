@@ -1,0 +1,501 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+
+body{
+    background-color: rgb(212, 228, 243);
+    font-family: 'Poetsen One';
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*INPUT*/
+
+input{
+    border-radius: 5px;
+}
+
+input[type=radio]{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 20px solid white;
+}
+
+/*PRINCIPAL*/
+
+.Principal-Pedido {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(rgb(107, 233, 170), rgb(119, 252, 137));
+    border: 5px solid rgb(46, 214, 164);
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+h1{
+    background: linear-gradient(rgb(60, 143, 146), rgb(16, 163, 189));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 400%;
+}
+
+.Num{
+    background: linear-gradient(rgb(60, 143, 146), rgb(16, 163, 189));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    padding-top: 31.5px;
+}
+
+.pedido{
+    transition-duration: 1.0s;
+    width: 25%;
+    border: 2px solid rgb(141, 173, 52);
+    background-color: rgb(216, 252, 224);
+    box-shadow: inset 0px 10px 10px rgb(197, 255, 211);
+}
+
+.pedido:hover{
+    transition: 1.0s;
+    padding: 7px;
+    background: rgb(179, 236, 192);
+}
+
+/*INICIO PEDIDO*/
+
+.Inicio {
+    border-spacing: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+
+.primary-c{
+    font-style: italic;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.Cliente{
+    padding: 7px;
+}
+
+.Cedula{
+    padding: 12px;
+}
+
+.Telephone{
+    padding: 3.5px
+}
+
+.cliente{
+    transition-duration: 1.0s;
+    padding: 10px;
+    margin: 5px 8px;
+    border: 2px solid rgb(141, 173, 52);
+    background-color: rgb(175, 238, 190);
+    box-shadow: inset 0px 10px 10px rgb(102, 209, 127);
+    width: 700px;
+}
+
+.cliente:hover{
+    transition: 1.0s;
+    padding: 22px;
+    background: rgb(120, 212, 142);
+}
+
+/*FECHAS*/
+
+.Fechas{
+    background: linear-gradient(rgba(107, 233, 170, 0.493), rgba(119, 252, 137, 0.493));
+    border: 5px solid rgba(18, 139, 103, 0.329);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-left: none; 
+    border-right: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.entrega{
+    margin: 10px;
+    font-size: 50px;
+}
+
+.cliente-fecha{
+    transition-duration: 1.0s;
+    padding: 5px;
+    margin: 5px 8px;
+    border: 2px solid rgb(141, 173, 52);
+    background-color: rgb(175, 238, 190);
+    box-shadow: inset 0px 10px 10px rgb(102, 209, 127);
+    width: 120px;
+}
+
+.cliente-fecha:hover{
+    transition: 1.0s;
+    padding: 12px;
+    background: rgb(120, 212, 142);
+}
+
+/* CANTIDAD */
+
+.Cantidades{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.Nombres{
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(rgb(41, 120, 122), rgb(16, 163, 189));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.columnas{
+    transition-duration: 1.0s;
+    padding: 10px;
+    margin: 5px 40px;
+    border: 2px solid rgb(141, 173, 52);
+    background-color: rgba(175, 238, 190, 0.63);
+    box-shadow: inset 0px 10px 10px rgba(102, 209, 127, 0.61);
+    width: 250px;
+}
+
+.columnas:hover{
+    transition: 1.0s;
+    padding: 20px;
+}
+
+.columnas{
+    transition-duration: 1.0s;
+    padding: 10px;
+    margin: 5px 40px;
+    border: 2px solid rgb(141, 173, 52);
+    background-color: rgba(175, 238, 190, 0.63);
+    box-shadow: inset 0px 10px 10px rgba(102, 209, 127, 0.61);
+    width: 250px;
+}
+
+.columnas:hover{
+    transition: 1.0s;
+    padding: 20px;
+}
+
+/*Observaciones*/
+
+.Ob{
+    background: linear-gradient(rgba(107, 233, 170, 0.493), rgba(119, 252, 137, 0.493));
+    border: 5px solid rgba(18, 139, 103, 0.329);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-left: none; 
+    border-right: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Obsv{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Observaciones{
+    transition-duration: 1.0s;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(186, 231, 231);
+    box-shadow: inset 0px 20px 20px rgb(204, 244, 255);
+    font-size: 14px
+}
+
+.Observaciones:hover{
+    transition: 1.0s;
+    padding: 10px;
+    background-color: rgb(154, 216, 216);
+}
+
+/*Entrega*/
+
+.Entrega{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.Entregar{
+    transition-duration: 1.0s;
+    width: 100px;
+    margin-left: 25px;
+    border-style: none;
+    background-color: rgb(164, 226, 184);
+    width: 100px;
+}
+
+.Entregar:hover{
+    transition: 0.5s;
+    padding: 20px;
+    background-color: rgb(87, 167, 112); 
+    cursor: pointer;
+}
+
+.Entregar::backdrop{
+    transition: 0.5s;
+    padding: 15px;
+}
+
+/*Footer*/
+
+.Principal-Pedido2 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    background: linear-gradient(rgb(107, 233, 170), rgb(119, 252, 137));
+    border: 5px solid rgb(46, 214, 164);
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+h1{
+    background: linear-gradient(rgb(60, 143, 146), rgb(16, 163, 189));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 400%;
+}
+
+.Info{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+/* Datos */
+
+.DatosRegistrados{
+    text-align: center;
+}
+
+.datos{
+    background: linear-gradient(rgb(60, 143, 146), rgb(16, 163, 189));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 22.5px;
+    padding-top: 31.5px;
+}
+
+.datos2{
+    margin-top: 10px;
+}
+
+.ache2{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 31.5px;
+    text-align: center;
+}
+
+.actualizacion{
+    font-family: "Rubik Bubbles", system-ui;
+    font-style: normal;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(rgba(233, 174, 107, 0.493), rgba(231, 217, 19, 0.493));
+    border: 5px solid rgba(223, 6, 125, 0.329);
+    border-right-style: none;
+    border-left-style: none;
+    color: black;
+    font-size: 30px;
+}
+
+fieldset{
+    background: linear-gradient(rgba(107, 233, 170, 0.349), rgba(119, 252, 137, 0.308));
+    border: 5px solid rgba(18, 139, 103, 0.329);
+    margin-top: 100px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.btn-delete{
+    transition-duration: 1.0s;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    width: 100px;
+    margin-left: 35px;
+    border-style: none;
+    background-color: rgb(164, 226, 184);
+    padding: 15px;
+}
+
+.btn-delete:hover{
+    transition: 0.5s;
+    padding: 20px;
+    background-color: rgb(87, 167, 112); 
+    cursor: pointer;
+}
+
+.btn-edit{
+    transition-duration: 1.0s;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 100px;
+    margin-left: 40px;
+    border-style: none;
+    background-color: rgb(164, 226, 184);
+    padding: 15px;
+}
+
+.btn-edit:hover{
+    transition: 0.5s;
+    padding: 20px;
+    background-color: rgb(87, 167, 112); 
+    cursor: pointer;
+}
+
+.btn-edit-lista{
+    transition-duration: 1.0s;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 100px;
+    margin-left: 40px;
+    border-style: none;
+    background-color: rgb(164, 226, 184);
+    padding: 15px;
+}
+
+.btn-edit-lista:hover{
+    transition: 0.5s;
+    padding: 20px;
+    background-color: rgb(87, 167, 112); 
+    cursor: pointer;
+}
+
+.btn-delete-lista{
+    transition-duration: 1.0s;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    width: 100px;
+    margin-left: 35px;
+    border-style: none;
+    background-color: rgb(164, 226, 184);
+    padding: 15px;
+}
+
+.btn-delete-lista:hover{
+    transition: 0.5s;
+    padding: 20px;
+    background-color: rgb(87, 167, 112); 
+    cursor: pointer;
+}
+
+.Libros {
+    font-family: "Rubik Bubbles", system-ui;
+    background: linear-gradient(rgb(41, 120, 122), rgb(16, 163, 189));
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    border-spacing: 10px;
+    margin-top: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+
+.libro{
+    transition-duration: 1.0s;
+    padding: 8px;
+    margin: 5px 8px;
+    border: 2px solid rgb(141, 173, 52);
+    background-color: rgb(175, 238, 190);
+    box-shadow: inset 0px 10px 10px rgb(102, 209, 127);
+    width: 700px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.libro:hover{
+    transition: 1.0s;
+    padding: 18px;
+    background: rgb(120, 212, 142);
+}
+
+.btn-delete-libro{
+    transition-duration: 1.0s;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    width: 100px;
+    margin-left: 35px;
+    border-style: none;
+    background-color: rgb(164, 226, 184);
+    padding: 15px;
+}
+
+.btn-delete-libro:hover{
+    transition: 0.5s;
+    padding: 20px;
+    background-color: rgb(87, 167, 112); 
+    cursor: pointer;
+}
+
+.btn-edit-libro{
+    transition-duration: 1.0s;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 100px;
+    margin-left: 40px;
+    border-style: none;
+    background-color: rgb(164, 226, 184);
+    padding: 15px;
+}
+
+.btn-edit-libro:hover{
+    transition: 0.5s;
+    padding: 20px;
+    background-color: rgb(87, 167, 112); 
+    cursor: pointer;
+}
